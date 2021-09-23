@@ -244,14 +244,8 @@
     padding: 0 2rem;
 }
 
-.newspaper__items--line::before {
-    width: 1px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 100%;
-    content: "";
-    background: #e5e5e5;
+.newspaper__items--line {
+    border-right: 1px solid #e5e5e5;
 }
 
 .container__items--line-2::before {
@@ -283,4 +277,32 @@
 
 .new__items--newspaper-2 {
     border-top: 1px solid #e5e5e5;
+}
+
+/* Nguyễn Minh Đức */
+/* Session 4 */
+.session4 {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 2rem;
+    margin-top: 2rem;
+}
+
+.session4__news {
+    margin-top: 2rem;
+}
+
+/* Nội dụng trái */
+.session4__news-left {
+    width: 54rem;
+    padding-right: 4rem;
+}
+
+.session4__news-img {
+    width: 100%;
+}
+
+/* Nội dung giữa */
+.session4__news-center {
+    width: 28rem;
+    padding-right: 4rem;
 }
